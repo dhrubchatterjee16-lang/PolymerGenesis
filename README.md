@@ -7,8 +7,7 @@
 [![RDKit](https://img.shields.io/badge/RDKit-2023.9+-green.svg)](https://www.rdkit.org/)
 [![ASE](https://img.shields.io/badge/ASE-3.22+-brightgreen.svg)](https://wiki.fysik.dtu.dk/ase/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.32+-ff4b4b.svg)](https://streamlit.io/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Tests: 32/32 Passing](https://img.shields.io/badge/Unit%20Tests-32%2F32%20Passing-success.svg)](tests/test_pipeline.py)
+[![CI Build](https://github.com/dhrubchatterjee16-lang/PolymerGenesis/actions/workflows/tests.yml/badge.svg)](https://github.com/dhrubchatterjee16-lang/PolymerGenesis/actions)
 
 ---
 
