@@ -15,6 +15,9 @@ Implements:
 from typing import Dict, List, Optional, Tuple, Union
 import numpy as np
 
+# Cross-version trapezoid integration across NumPy 1.x and NumPy 2.x
+_trapezoid = getattr(np, "trapezoid", getattr(np, "trapz", None))
+
 
 class GPCParser:
     """
@@ -206,7 +209,7 @@ class DSCParser:
             hf_peak = hf_smooth[melt_peak_mask]
             if len(t_peak) > 5:
                 baseline_linear = np.linspace(hf_peak[0], hf_peak[-1], len(t_peak))
-                area_mw_c = np.trapz(np.maximum(0.0, baseline_linear - hf_peak), t_peak)
+                area_mw_c = _trapezoid(np.maximum(0.0, baseline_linear - hf_peak), t_peak)
                 delta_hm = float(area_mw_c / (self.heating_rate / 60.0))
             else:
                 delta_hm = 0.0

@@ -10,6 +10,9 @@ import numpy as np
 from scipy import stats
 from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
 
+# Cross-version trapezoid integration across NumPy 1.x and NumPy 2.x
+_trapezoid = getattr(np, "trapezoid", getattr(np, "trapz", None))
+
 def compute_regression_metrics(y_true: np.ndarray, y_pred: np.ndarray) -> dict:
     """Computes R2, RMSE, and MAE."""
     y_true = np.asarray(y_true).ravel()
@@ -84,7 +87,7 @@ def compute_sparsification_curve(y_true: np.ndarray, y_pred_mean: np.ndarray, y_
         else:
             rmse_curve.append(0.0)
 
-    ause = float(np.trapz(rmse_curve, fractions_removed))
+    ause = float(_trapezoid(rmse_curve, fractions_removed))
     return {
         "fractions_removed": fractions_removed.tolist(),
         "rmse_curve": rmse_curve,
