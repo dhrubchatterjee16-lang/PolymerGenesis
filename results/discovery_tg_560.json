@@ -1,0 +1,50 @@
+{
+  "target_property": "tg",
+  "target_value": 560.0,
+  "unit": "K",
+  "novelty_fraction": 1.0,
+  "top_candidates": [
+    {
+      "smiles": "[*]CCCCCC(=O)NCCNC(=O)C(S2)=CC=C2[*]",
+      "pred_val": 559.862548828125,
+      "pred_std": 22.337697982788086,
+      "sa_score": 1.0,
+      "abs_diff": 0.137451171875
+    },
+    {
+      "smiles": "[*]C=CC1CC([*])C1",
+      "pred_val": 559.7904663085938,
+      "pred_std": 22.653499603271484,
+      "sa_score": 1.8,
+      "abs_diff": 0.20953369140625
+    },
+    {
+      "smiles": "[*]CCCCCCCCCCCCCCCNC(=O)CCCCCC(=O)O[*]",
+      "pred_val": 560.7978515625,
+      "pred_std": 20.99898338317871,
+      "sa_score": 1.0,
+      "abs_diff": 0.7978515625
+    },
+    {
+      "smiles": "[*]CCCCCCCCCCCCCCNC(=O)CCCCCCCCCC(=O)O[*]",
+      "pred_val": 561.0352172851562,
+      "pred_std": 24.536348342895508,
+      "sa_score": 1.0724125000000029,
+      "abs_diff": 1.03521728515625
+    },
+    {
+      "smiles": "[*]C(=O)C(=S)NC(=O)OC(=O)CCCCCC(=O)O[*]",
+      "pred_val": 558.6828002929688,
+      "pred_std": 21.398712158203125,
+      "sa_score": 1.0,
+      "abs_diff": 1.31719970703125
+    },
+    {
+      "smiles": "[*]CCCCCCCCNC(=O)CCCCCCCCCCC(=O)N[*]",
+      "pred_val": 561.3861694335938,
+      "pred_std": 26.620729446411133,
+      "sa_score": 1.0,
+      "abs_diff": 1.38616943359375
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "polymer_name": "Poly(isosorbide-alt-sebacate) [PIS]",
+  "smiles": "*C(=O)CCCCCCCCC(=O)OC1C2OCC(O*)C2OC1",
+  "challenge": "PFAS-Free, Zero-Fluorine, 100% Bio-Based High-Barrier Thermoplastic",
+  "precursors": [
+    {
+      "name": "Sebacic Acid",
+      "cas": "111-20-6",
+      "origin": "Natural Castor Oil pyrolysis/alkaline cleavage"
+    },
+    {
+      "name": "Isosorbide",
+      "cas": "652-67-5",
+      "origin": "D-Glucose / Corn Starch dehydration"
+    }
+  ],
+  "thermal_properties": {
+    "in_silico_md_tg_K": 390.0,
+    "calibrated_exp_tg_K": 312.2758357064106,
+    "calibrated_exp_tg_C": 39.12583570641061,
+    "ptfe_melting_benchmark_C": 327.0
+  },
+  "mechanical_properties": {
+    "youngs_modulus_GPa": 0.5,
+    "yield_stress_MPa": 38.5,
+    "ptfe_youngs_modulus_GPa": 0.5,
+    "ptfe_yield_stress_MPa": 25.0
+  },
+  "circularity_and_lca": {
+    "astm_d6866_bio_carbon_percent": 100.0,
+    "fluorine_content_percent": 0.0,
+    "net_gwp_kg_co2_kg": 1.5457793713703976,
+    "fossil_ptfe_gwp_kg_co2_kg": 18.5,
+    "co2_reduction_percent": 91.64443583043028,
+    "depolymerization_mechanism": "Chemical Glycolysis / Hydrolysis to Monomers",
+    "circularity_score": 88.0
+  },
+  "automation_hardware": {
+    "platform": "microfluidic_flow_reactor",
+    "technique": "High-Temperature Capillary Slug-Flow Reactor / Heated Autoclave",
+    "reactor_residence_time_s": 180.0,
+    "operating_temperature_C": 190.0
+  }
+}

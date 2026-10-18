@@ -1,0 +1,36 @@
+{
+  "benchmark_protocol": "Bemis-Murcko Scaffold Split (80/10/10)",
+  "property": "bandgap",
+  "unit": "eV",
+  "num_test_samples": 250,
+  "models": {
+    "XGBoost (Morgan FP + 2D RDKit)": {
+      "R2": 0.6703310608863831,
+      "RMSE": 0.6057973400750867,
+      "MAE": 0.45365893840789795,
+      "MACE": 0.2899999999999999,
+      "AUSE": 0.5062548911834551
+    },
+    "Standard GCN (Topology Only)": {
+      "R2": -0.26605498790740967,
+      "RMSE": 1.1871747023095256,
+      "MAE": 1.0288753509521484,
+      "MACE": 0.45339999999999997,
+      "AUSE": 0.9336540787019175
+    },
+    "PolymerGenesis GINEConv (Bond-Aware)": {
+      "R2": 0.10860127210617065,
+      "RMSE": 0.9961490989715831,
+      "MAE": 0.8459453582763672,
+      "MACE": 0.15699999999999997,
+      "AUSE": 0.846465810077633
+    },
+    "PolymerGenesis PI-GNN (Thermodynamic)": {
+      "R2": -0.06090223789215088,
+      "RMSE": 1.0867409238328802,
+      "MAE": 0.9299061298370361,
+      "MACE": 0.191,
+      "AUSE": 0.8847400659448313
+    }
+  }
+}

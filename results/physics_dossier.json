@@ -1,0 +1,102 @@
+{
+  "polymer_smiles": "[*]CC([*])c1ccc(C(C)(C)C)cc1",
+  "box_architecture": {
+    "chains": 3,
+    "monomers_per_chain": 4,
+    "total_atoms": 342,
+    "box_length_A": 18.0
+  },
+  "thermal_properties": {
+    "in_silico_md_tg_K": 467.97851074463057,
+    "density_at_300K_g_cm3": 0.5492899008148148,
+    "trajectory": [
+      {
+        "temperature": 650.0,
+        "potential_energy_eV": 14.641090697878964,
+        "volume_A3": 8800.508546136,
+        "density_g_cm3": 0.36400836210295234,
+        "specific_volume": 2.747189636586344
+      },
+      {
+        "temperature": 600.0,
+        "potential_energy_eV": 14.641264038723774,
+        "volume_A3": 8325.928688831997,
+        "density_g_cm3": 0.38475692277414847,
+        "specific_volume": 2.5990435540181247
+      },
+      {
+        "temperature": 550.0,
+        "potential_energy_eV": 14.640414467760458,
+        "volume_A3": 7868.724669,
+        "density_g_cm3": 0.40711282149348765,
+        "specific_volume": 2.456321558067157
+      },
+      {
+        "temperature": 500.0,
+        "potential_energy_eV": 14.640893464561195,
+        "volume_A3": 7428.572425728002,
+        "density_g_cm3": 0.43123476732315225,
+        "specific_volume": 2.3189224890363143
+      },
+      {
+        "temperature": 450.0,
+        "potential_energy_eV": 14.640530816219671,
+        "volume_A3": 7005.147898104,
+        "density_g_cm3": 0.45730065205604603,
+        "specific_volume": 2.1867451872284707
+      },
+      {
+        "temperature": 400.0,
+        "potential_energy_eV": 14.640014242914217,
+        "volume_A3": 6598.127025216,
+        "density_g_cm3": 0.48551031062441985,
+        "specific_volume": 2.059688492946503
+      },
+      {
+        "temperature": 350.0,
+        "potential_energy_eV": 14.639861778806731,
+        "volume_A3": 6207.1857461519985,
+        "density_g_cm3": 0.5160887449739859,
+        "specific_volume": 1.9376512464932871
+      },
+      {
+        "temperature": 300.0,
+        "potential_energy_eV": 14.639538361912527,
+        "volume_A3": 5832.0,
+        "density_g_cm3": 0.5492899008148148,
+        "specific_volume": 1.8205322881716983
+      },
+      {
+        "temperature": 250.0,
+        "potential_energy_eV": 14.63912786981654,
+        "volume_A3": 5472.245725848,
+        "density_g_cm3": 0.5854011062442886,
+        "specific_volume": 1.708230458284612
+      }
+    ]
+  },
+  "mechanical_properties": {
+    "youngs_modulus_GPa": 1.98795139217986,
+    "yield_stress_MPa": 120.0,
+    "strains": [
+      0.0,
+      0.028571428571428574,
+      0.05714285714285715,
+      0.08571428571428572,
+      0.1142857142857143,
+      0.14285714285714288,
+      0.17142857142857143,
+      0.2
+    ],
+    "stresses_MPa": [
+      0.0,
+      39.88282312081073,
+      113.59722241027772,
+      120.0,
+      120.0,
+      120.0,
+      120.0,
+      120.0
+    ]
+  }
+}

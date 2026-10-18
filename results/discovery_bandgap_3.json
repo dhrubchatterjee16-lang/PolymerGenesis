@@ -1,0 +1,50 @@
+{
+  "target_property": "bandgap",
+  "target_value": 3.5,
+  "unit": "eV",
+  "novelty_fraction": 1.0,
+  "top_candidates": [
+    {
+      "smiles": "[*]CC([*])C(=O)OCCCCCCCCCCCOC",
+      "pred_val": 7.79705810546875,
+      "pred_std": 1.0874853134155273,
+      "sa_score": 1.0,
+      "abs_diff": 4.29705810546875
+    },
+    {
+      "smiles": "[*]CC(C=C1)=CC=C1C(=S)[*]",
+      "pred_val": 7.806496620178223,
+      "pred_std": 1.3072540760040283,
+      "sa_score": 1.0,
+      "abs_diff": 4.306496620178223
+    },
+    {
+      "smiles": "[*]CCCCCCCCCCCCCCCCCCCCCCCCCO[*]",
+      "pred_val": 7.811285972595215,
+      "pred_std": 1.1412018537521362,
+      "sa_score": 1.0,
+      "abs_diff": 4.311285972595215
+    },
+    {
+      "smiles": "[*]Oc1ccc(CC(C)(C)c2ccc(OC([*])=O)cc2)cc1",
+      "pred_val": 7.846816062927246,
+      "pred_std": 1.1919642686843872,
+      "sa_score": 1.0,
+      "abs_diff": 4.346816062927246
+    },
+    {
+      "smiles": "[*]c1cc(CCCCCCCCCC)c([*])n1CCCCCCCO",
+      "pred_val": 7.853517532348633,
+      "pred_std": 1.164455533027649,
+      "sa_score": 1.0,
+      "abs_diff": 4.353517532348633
+    },
+    {
+      "smiles": "[*]C(C=C1)=CC=C1C(=S)[*]",
+      "pred_val": 7.895062446594238,
+      "pred_std": 1.287742018699646,
+      "sa_score": 1.0,
+      "abs_diff": 4.395062446594238
+    }
+  ]
+}

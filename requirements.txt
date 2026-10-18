@@ -1,0 +1,22 @@
+# Core Deep Learning & Graph Neural Networks
+torch>=2.2.0
+torch-geometric>=2.5.0
+
+# Materials Informatics, Cheminformatics & Molecular Modeling
+rdkit>=2023.9.5
+ase>=3.22.1
+
+# Bayesian Optimization & Gaussian Processes
+botorch>=0.10.0
+gpytorch>=1.11
+
+# Numerical Scientific Computing & Machine Learning
+numpy>=1.24.0
+scipy>=1.11.0
+scikit-learn>=1.3.0
+pandas>=2.0.0
+
+# Visualization & Interactive Web UI
+matplotlib>=3.8.0
+streamlit>=1.32.0
+Pillow>=10.0.0

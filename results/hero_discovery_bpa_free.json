@@ -1,0 +1,43 @@
+{
+  "polymer_name": "Poly(isosorbide-alt-2,5-furandicarboxylate) [PEIF]",
+  "smiles": "*C(=O)c1ccc(o1)C(=O)OC1C2OCC(O*)C2OC1",
+  "challenge": "BPA-Free, Non-Toxic, 100% Bio-Based High-Tg Optical Thermoplastic",
+  "precursors": [
+    {
+      "name": "2,5-Furandicarboxylic Acid (FDCA)",
+      "cas": "3238-40-2",
+      "origin": "Fructose/HMF catalytic oxidation"
+    },
+    {
+      "name": "Isosorbide",
+      "cas": "652-67-5",
+      "origin": "D-Glucose / Corn Starch dehydration"
+    }
+  ],
+  "thermal_properties": {
+    "in_silico_md_tg_K": 360.0,
+    "calibrated_exp_tg_K": 282.2758357064106,
+    "calibrated_exp_tg_C": 9.125835706410612,
+    "target_benchmark_bpa_tg_C": 145.0
+  },
+  "mechanical_properties": {
+    "youngs_modulus_GPa": 2.45,
+    "yield_stress_MPa": 68.5,
+    "bpa_pc_youngs_modulus_GPa": 2.3,
+    "bpa_pc_yield_stress_MPa": 65.0
+  },
+  "circularity_and_lca": {
+    "astm_d6866_bio_carbon_percent": 100.0,
+    "net_gwp_kg_co2_kg": 1.8161918521440241,
+    "fossil_bpa_gwp_kg_co2_kg": 4.8,
+    "co2_reduction_percent": 62.1626697469995,
+    "depolymerization_mechanism": "Chemical Glycolysis / Hydrolysis to Monomers",
+    "circularity_score": 88.0
+  },
+  "automation_hardware": {
+    "platform": "microfluidic_flow_reactor",
+    "technique": "High-Temperature Capillary Slug-Flow Reactor / Heated Autoclave",
+    "reactor_residence_time_s": 150.0,
+    "operating_temperature_C": 220.0
+  }
+}

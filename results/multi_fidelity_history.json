@@ -1,0 +1,92 @@
+[
+  {
+    "round": 0,
+    "fidelity": 0.0,
+    "fidelity_label": "GNN (Low)",
+    "smiles": "[*]CC(C)CCCOC(=O)CCCCCCCCC(=O)O[*]",
+    "measured_tg": 557.5440063476562,
+    "target_error": 2.45599365234375,
+    "reward": -0.009882908251146641
+  },
+  {
+    "round": 0,
+    "fidelity": 0.0,
+    "fidelity_label": "GNN (Low)",
+    "smiles": "[*]CC([*])OCCOC",
+    "measured_tg": 554.3411254882812,
+    "target_error": 5.65887451171875,
+    "reward": -0.05246750471902
+  },
+  {
+    "round": 0,
+    "fidelity": 0.0,
+    "fidelity_label": "GNN (Low)",
+    "smiles": "[*]CCCCCCCCCCCCCCCCCCCCCCC(=O)N[*]",
+    "measured_tg": 570.12353515625,
+    "target_error": 10.12353515625,
+    "reward": -0.16791700300310264
+  },
+  {
+    "round": 0,
+    "fidelity": 0.0,
+    "fidelity_label": "GNN (Low)",
+    "smiles": "[*]CCCCCCNC(=O)CCCCCCCCCCCCCCCCCCCCCC(=O)NCCC(S2)=CC=C2[*]",
+    "measured_tg": 573.347900390625,
+    "target_error": 13.347900390625,
+    "reward": -0.5543548561207596
+  },
+  {
+    "round": 0,
+    "fidelity": 0.0,
+    "fidelity_label": "GNN (Low)",
+    "smiles": "[*]Oc1ccc(C([*])=O)cc1CCCC",
+    "measured_tg": 557.87255859375,
+    "target_error": 2.12744140625,
+    "reward": -0.007415586391841423
+  },
+  {
+    "round": 0,
+    "fidelity": 0.0,
+    "fidelity_label": "GNN (Low)",
+    "smiles": "[*]CCCCCCCCCOC(=O)NCCCCCCCCCCCCNC(=O)N[*]",
+    "measured_tg": 563.6287231445312,
+    "target_error": 3.62872314453125,
+    "reward": -0.03902086157450384
+  },
+  {
+    "round": 0,
+    "fidelity": 0.0,
+    "fidelity_label": "GNN (Low)",
+    "smiles": "[*]CC([*])C(=O)OC",
+    "measured_tg": 562.4690551757812,
+    "target_error": 2.46905517578125,
+    "reward": -0.009988306806476601
+  },
+  {
+    "round": 0,
+    "fidelity": 0.0,
+    "fidelity_label": "GNN (Low)",
+    "smiles": "[*]CCCCC(=O)N[*]",
+    "measured_tg": 558.0513305664062,
+    "target_error": 1.94866943359375,
+    "reward": -0.006221665089747075
+  },
+  {
+    "round": 1,
+    "fidelity": 1.0,
+    "fidelity_label": "MD (High)",
+    "smiles": "[*]CCCCCCCCCNC(=O)NCCCCCCCCCNC(=O)O[*]",
+    "measured_tg": 470.82322195258536,
+    "target_error": 89.17677804741464,
+    "reward": -13.029682646105002
+  },
+  {
+    "round": 2,
+    "fidelity": 1.0,
+    "fidelity_label": "MD (High)",
+    "smiles": "[*]CCCCCCCCCCCCOC(=O)CCCCCCCCCC(=O)O[*]",
+    "measured_tg": 470.82322195258547,
+    "target_error": 89.17677804741453,
+    "reward": -13.02968264610497
+  }
+]

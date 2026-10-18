@@ -1,0 +1,52 @@
+{
+  "C=CC(=O)OC": {
+    "smiles": "C=CC(=O)OC",
+    "iupac_name": "methyl prop-2-enoate",
+    "formula": "C4H6O2",
+    "molecular_weight": "86.09",
+    "cas_number": "96-33-3",
+    "pubchem_cid": 7294,
+    "is_commercially_available": true,
+    "vendor_count": 111,
+    "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/compound/7294",
+    "sigma_search_url": "https://www.sigmaaldrich.com/US/en/search/96-33-3"
+  },
+  "CCCCCC(=O)NCCNC(=O)C(S2)=CC=C2": {
+    "smiles": "CCCCCC(=O)NCCNC(=O)C(S2)=CC=C2",
+    "iupac_name": "N-[2-(hexanoylamino)ethyl]thiophene-2-carboxamide",
+    "formula": "C13H20N2O2S",
+    "molecular_weight": "268.38",
+    "cas_number": "N/A",
+    "pubchem_cid": 9513215,
+    "is_commercially_available": false,
+    "vendor_count": 0,
+    "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/compound/9513215",
+    "sigma_search_url": "https://www.sigmaaldrich.com/US/en/search/CCCCCC%28%3DO%29NCCNC%28%3DO%29C%28S2%29%3DCC%3DC2"
+  },
+  "O=C(O)CCCCCCCCC(=O)O": {
+    "smiles": "O=C(O)CCCCCCCCC(=O)O",
+    "name": "decanedioic acid",
+    "formula": "C10H18O4",
+    "molecular_weight": "202.25",
+    "cas_number": "111-20-6",
+    "pubchem_cid": 5192,
+    "is_commercially_available": true,
+    "primary_vendor": "Specialty Chemical Suppliers",
+    "price_tier": "$$$ (Commercial CAS Registered)",
+    "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5192",
+    "sigma_search_url": "https://www.sigmaaldrich.com/US/en/search/111-20-6"
+  },
+  "OC1COC2C(O)COC12": {
+    "smiles": "OC1COC2C(O)COC12",
+    "name": "2,3,3a,5,6,6a-hexahydrofuro[3,2-b]furan-3,6-diol",
+    "formula": "C6H10O4",
+    "molecular_weight": "146.14",
+    "cas_number": "28218-68-0",
+    "pubchem_cid": 99937,
+    "is_commercially_available": true,
+    "primary_vendor": "Specialty Chemical Suppliers",
+    "price_tier": "$$$ (Commercial CAS Registered)",
+    "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/compound/99937",
+    "sigma_search_url": "https://www.sigmaaldrich.com/US/en/search/28218-68-0"
+  }
+}
