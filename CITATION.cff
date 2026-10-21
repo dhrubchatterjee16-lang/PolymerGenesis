@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use PolymerGenesis, please cite it as below."
+authors:
+  - family-names: "Chatterjee"
+    given-names: "Dhrub"
+title: "PolymerGenesis: Graph Neural Networks & Materials Informatics for Polymer Physics"
+version: 1.0.0
+date-released: 2026-10-20
+url: "https://github.com/dhrubchatterjee16-lang/PolymerGenesis"
+keywords:
+  - materials-informatics
+  - polymer-physics
+  - graph-neural-networks
+  - materials-science
